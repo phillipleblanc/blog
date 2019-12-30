@@ -10,6 +10,9 @@
 - Analytics (homegrown? privacy friendly)
 - List of other good blogs (ask for suggestions)
 
+## other ideas
+- Korean toggle / Korean market
+
 ## Post Ideas
 - Trust
 - Maintenance and Simplicity

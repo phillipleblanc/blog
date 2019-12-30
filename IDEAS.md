@@ -9,11 +9,20 @@
 - Social buttons
 - Analytics (homegrown? privacy friendly)
 - List of other good blogs (ask for suggestions)
+- List of good books
+- List of good twitter accounts
 
 ## other ideas
 - Korean toggle / Korean market
+- guide people to the articles they would be interested in
+- book reviews
 
 ## Post Ideas
 - Trust
 - Maintenance and Simplicity
 - Experience of living in Korea
+- Success is internal AND external
+- Improve the quality of your decisions
+- The importance of values
+- Running a remote team in Korea
+- [TECH] [SERIES] Setting up a Discourse forum with Auth0 on Azure

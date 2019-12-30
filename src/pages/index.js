@@ -15,6 +15,9 @@ const Layout = ({data}) => {
       }}>
         {edges.map(edge => {
           const {frontmatter} = edge.node
+
+          if (!frontmatter.publish) return null;
+
           return (
             <div 
               key={frontmatter.path}
@@ -26,10 +29,6 @@ const Layout = ({data}) => {
             </div>
           )
         })}
-
-        <div>
-          <Link to='/tags'>Browse by Tag</Link>
-        </div>
       </div>
     </div>
   )
@@ -46,6 +45,7 @@ export const query = graphql`
             title
             path
             date
+            publish
           }
         }
       }

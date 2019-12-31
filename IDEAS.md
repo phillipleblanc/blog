@@ -26,3 +26,5 @@
 - The importance of values
 - Running a remote team in Korea
 - [TECH] [SERIES] Setting up a Discourse forum with Auth0 on Azure
+- Meaning is relative - so why are some things good/bad?
+- Independent thinking

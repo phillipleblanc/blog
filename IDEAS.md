@@ -16,6 +16,7 @@
 - Korean toggle / Korean market
 - guide people to the articles they would be interested in
 - book reviews
+- links to other articles with pop-up excerpt
 
 ## Post Ideas
 - Trust

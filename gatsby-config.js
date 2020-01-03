@@ -64,6 +64,7 @@ module.exports = {
                         excerpt
                         publish
                       }
+                      html
                     }
                   }
                 }

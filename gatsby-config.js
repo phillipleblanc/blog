@@ -7,9 +7,9 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Phillip LeBlanc',
-    description: 'Pursuit of knowledge.',
-    siteUrl: 'https://leblanc.tech'
+    title: "Phillip LeBlanc",
+    description: "Pursuit of knowledge.",
+    siteUrl: "https://leblanc.tech",
   },
   plugins: [
     `gatsby-transformer-remark`,
@@ -17,8 +17,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`
-      }
+        path: `${__dirname}/src/pages`,
+      },
     },
     {
       resolve: `gatsby-plugin-feed`,
@@ -45,7 +45,7 @@ module.exports = {
                   date: fm.date,
                   url: site.siteMetadata.siteUrl + fm.path,
                   guid: site.siteMetadata.siteUrl + fm.path,
-                  custom_elements: [{ "content:encoded": edge.node.html }]
+                  custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
             },
@@ -71,10 +71,10 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Phillip LeBlanc"
-          }
-        ]
-      }
-    }
-  ]
+            title: "Phillip LeBlanc",
+          },
+        ],
+      },
+    },
+  ],
 }

@@ -14,15 +14,7 @@ const TitleAndDescription = ({ data }) => {
         fontFamily: "avenir",
       }}
     >
-      <h2 style={{ marginBottom: 0 }}>{title}</h2>
-      <p
-        style={{
-          marginTop: 0,
-          opacity: 0.5,
-        }}
-      >
-        {description}
-      </p>
+      <img src="logo.png" width="400px" />
     </div>
   )
 }

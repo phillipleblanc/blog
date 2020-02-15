@@ -1,11 +1,16 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
 import Header from "../components/Header"
 
-const Layout = ({ data }) => {
-  const { edges } = data.allMarkdownRemark
+const Layout = () => {
   return (
-    <div>
+    <main style={{
+      maxWidth: "1520px", 
+      marginTop: "40px",
+      marginRight: "auto", 
+      marginLeft: "auto",
+      padding:"0 200px 0 200px"
+      }}
+    >
       <Header />
       <div
         style={{
@@ -15,37 +20,10 @@ const Layout = ({ data }) => {
           fontFamily: "avenir",
         }}
       >
-        {edges.map(edge => {
-          const { frontmatter } = edge.node
-
-          if (!frontmatter.publish) return null
-
-          return (
-            <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-              <Link to={frontmatter.path}>{frontmatter.title}</Link>
-            </div>
-          )
-        })}
+        <img src="profile_prof.jpg" width="400px" />
       </div>
-    </div>
+    </main>
   )
 }
-
-export const query = graphql`
-  query HomePageQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          frontmatter {
-            title
-            path
-            date
-            publish
-          }
-        }
-      }
-    }
-  }
-`
 
 export default Layout

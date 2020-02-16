@@ -1,12 +1,10 @@
 import React from "react"
 import Header from "../components/Header"
-import SEO from "../components/SEO"
 import "./index.css"
 
 const Index = () => {
   return (
     <>
-    <SEO />
     <main>
       <Header />
       <div
@@ -17,13 +15,13 @@ const Index = () => {
           fontFamily: "avenir",
         }}
       >
-        <img src="profile_prof.jpg" width="400px" />
+        <img src="profile_prof.jpg" alt="Profile of Phillip LeBlanc" width="400px" />
         <h1>Hi, I'm <strong>Phillip LeBlanc</strong>.<br /> A software engineer.</h1>
         <hr />
-        <h2>👋 About Me</h2>
+        <h2><span role="img" aria-label="Wave Emoji">👋</span> About Me</h2>
         <content>
-          <p>I lead a high performing team of software engineers at Microsoft.</p>
-          <p>Living in Seoul, Korea 🇰🇷.</p>
+          <p>I lead a team of high performing software engineers at Microsoft.</p>
+          <p>Living in Seoul, Korea <span role="img" aria-label="Korea flag emoji">🇰🇷</span>.</p>
           <p>Graduated from Louisiana State University.</p>
           <p>Worked for 5 years in Seattle on Azure Active Directory.</p>
         </content>

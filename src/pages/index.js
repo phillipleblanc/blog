@@ -1,8 +1,11 @@
 import React from "react"
 import Header from "../components/Header"
+import SEO from "../components/SEO"
 
 const Layout = () => {
   return (
+    <>
+    <SEO />
     <main style={{
       maxWidth: "1520px", 
       marginTop: "40px",
@@ -23,6 +26,7 @@ const Layout = () => {
         <img src="profile_prof.jpg" width="400px" />
       </div>
     </main>
+    </>
   )
 }
 

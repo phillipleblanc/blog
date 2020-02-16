@@ -1,0 +1,11 @@
+nav {
+    padding-left: 400px;
+}
+
+nav a {
+    padding: 4px 5px; 
+    text-transform: uppercase;
+    color: rgba(17,17,17,.7);
+    text-decoration: none;
+    font-family: avenir;
+}

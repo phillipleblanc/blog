@@ -5,8 +5,8 @@ import "./index.css"
 const Index = () => {
   return (
     <>
+    <Header />
     <main>
-      <Header />
       <div
         style={{
           display: "flex",

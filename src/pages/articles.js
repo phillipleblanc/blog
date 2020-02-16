@@ -5,36 +5,38 @@ import Header from "../components/Header"
 const Layout = ({ data }) => {
   const { edges } = data.allMarkdownRemark
   return (
-    <main style={{
-      maxWidth: "1520px", 
-      marginTop: "40px",
-      marginRight: "auto", 
-      marginLeft: "auto",
-      padding:"0 200px 0 200px"
-      }}
-    >
+    <>
       <Header />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          fontFamily: "avenir",
+      <main style={{
+        maxWidth: "1520px", 
+        marginTop: "40px",
+        marginRight: "auto", 
+        marginLeft: "auto",
+        padding:"0 200px 0 200px"
         }}
       >
-        {edges.map(edge => {
-          const { frontmatter } = edge.node
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            fontFamily: "avenir",
+          }}
+        >
+          {edges.map(edge => {
+            const { frontmatter } = edge.node
 
-          if (!frontmatter.publish) return null
+            if (!frontmatter.publish) return null
 
-          return (
-            <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-              <Link to={frontmatter.path}>{frontmatter.title}</Link>
-            </div>
-          )
-        })}
-      </div>
-    </main>
+            return (
+              <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
+                <Link to={frontmatter.path}>{frontmatter.title}</Link>
+              </div>
+            )
+          })}
+        </div>
+      </main>
+    </>
   )
 }
 

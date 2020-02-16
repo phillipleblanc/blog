@@ -9,3 +9,9 @@ nav a {
     text-decoration: none;
     font-family: avenir;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}

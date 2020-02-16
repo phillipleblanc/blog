@@ -12,7 +12,7 @@ const Header = () => {
           alignItems: "center",
         }}
       >
-        <img src="logo.png" alt="Phillip LeBlanc: Pursuit of Knowledge" width="400px" />
+        <img src="/logo.png" alt="Phillip LeBlanc: Pursuit of Knowledge" width="400px" />
       </div>
     </>
   )

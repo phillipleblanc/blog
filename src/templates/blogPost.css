@@ -15,19 +15,16 @@ article {
 
 @media screen and (max-width: 1200px) {
     article {
-        font-size: 18px;
         max-width: 65%;
     }
 }
 @media screen and (max-width: 768px) {
     article {
-        font-size: 15px;
         max-width: 90%;
     }
 }
 @media screen and (max-width: 320px) {
     article {
-        font-size: 12px;
         max-width: 100%;
     }
 }

@@ -1,5 +1,18 @@
 nav {
     padding-left: 400px;
+    transition: padding-left 1s;
+}
+
+@media screen and (max-width: 1600px) {
+    nav {
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    nav {
+        padding-left: 10px;
+    }
 }
 
 nav a {
@@ -8,10 +21,45 @@ nav a {
     color: rgba(17,17,17,.7);
     text-decoration: none;
     font-family: avenir;
+    transition: color 0.37s;
+}
+
+nav a:hover {
+    color: rgba(0,31,234,1);
+}
+
+/*@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}*/
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#left-header {
+    display: flex;
+    flex: 1 1 0px;
+}
+
+#center-header {
+    display: flex; 
+    flex: 0 0 auto;
+}
+
+#right-header {
+    display: flex; 
+    flex: 1 1 0px;
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-        display: none;
+    header {
+        flex-direction: column-reverse;
+    }
+
+    #left-header {
+        margin-bottom: 20px;
     }
 }

@@ -17,7 +17,7 @@ const Template = ({ data, pageContext }) => {
         <article>
           <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
           <div
-            className="blogpost"
+            className="article"
             dangerouslySetInnerHTML={{ __html: html }}
             style={{
               fontFamily: "avenir",

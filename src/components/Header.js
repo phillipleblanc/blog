@@ -6,13 +6,8 @@ const Header = () => {
   return (
     <>
       <SEO />
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <div style={{display: "flex", flex: "1 1 0px"}}>
+      <header>
+        <div id="left-header">
           <nav>
             <div>
               <a href="/">Home</a>
@@ -20,11 +15,11 @@ const Header = () => {
             </div>
           </nav>
         </div>
-        <div style={{display: "flex", flex: "0 0 auto"}}>
+        <div id="center-header">
           <a href="/"><img src="/logo.png" alt="Phillip LeBlanc: Pursuit of Knowledge" width="400px" /></a>
         </div>
-        <div style={{display: "flex", flex: "1 1 0px"}} />
-      </div>
+        <div id="right-header" />
+      </header>
     </>
   )
 }

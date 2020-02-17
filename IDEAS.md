@@ -1,17 +1,19 @@
 ## v1
 
+- Footer
+- Responsive NAV
 - Figure out SEO
 - Script for creating a new blog post
-- RSS feed
 - Three articles
 - Make it pretty
-- Set up email list
+- Set up email list and sign up
 - About page
 - Social buttons
 - Analytics (homegrown? privacy friendly)
 - List of other good blogs (ask for suggestions)
 - List of good books
 - List of good twitter accounts
+- RSS feed ✅
 
 ## other ideas
 

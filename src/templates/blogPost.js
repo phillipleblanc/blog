@@ -14,7 +14,7 @@ const Template = ({ data, pageContext }) => {
     <>
       <Header />
       <main>
-        <content>
+        <article>
           <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
           <div
             className="blogpost"
@@ -30,7 +30,7 @@ const Template = ({ data, pageContext }) => {
           <div style={{ fontFamily: "avenir" }}>
             {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
           </div>
-        </content>
+        </article>
       </main>
     </>
   )

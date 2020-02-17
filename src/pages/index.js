@@ -16,7 +16,7 @@ const Index = () => {
         }}
       >
         <img src="profile_prof.jpg" alt="Profile of Phillip LeBlanc" width="400px" />
-        <h1>Hi, I'm <strong>Phillip LeBlanc</strong>.<br /> A software engineer.</h1>
+        <h1>Hi, I'm <strong>Phillip LeBlanc</strong>.<br /> A software engineering manager.</h1>
         <hr />
         <h2><span role="img" aria-label="Wave Emoji">👋</span> About Me</h2>
         <content>

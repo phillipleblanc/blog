@@ -20,15 +20,14 @@ const Newsletter = () => {
             data-version="5" 
             data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;redirect&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;https://leblanc.tech&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:false,&quot;url&quot;:&quot;https://convertkit.com?utm_source=dynamic&amp;utm_medium=referral&amp;utm_campaign=poweredby&amp;utm_content=form&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}" 
             min-width="400 500 600 700 800">
-                <div 
-                    className="formkit-background">
+                <div className="formkit-background">
                 </div>
                 <div data-style="minimal">
                     <div className="formkit-header" data-element="header">
                         <h1>Join the Pursuit of Knowledge</h1>
                     </div>
                     <div className="formkit-subheader" data-element="subheader">
-                        <p>Upgrade your inbox.</p>
+                        <p>Get notified about my latest articles and insights.</p>
                     </div>
                     <ul className="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
                     <div data-element="fields" data-stacked="true" className="seva-fields formkit-fields">
@@ -47,11 +46,11 @@ const Newsletter = () => {
                                 <div></div>
                                 <div></div>
                             </div>
-                            <span>Send it my way!</span>
+                            <span>Sign Up!</span>
                         </button>
                     </div>
                     <div className="formkit-guarantee" data-element="guarantee">
-                        We won't send you spam. Unsubscribe at any time.
+                        I won't send you spam. Unsubscribe at any time.
                     </div>
                 </div>
         </form>

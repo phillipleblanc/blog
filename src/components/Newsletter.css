@@ -493,13 +493,13 @@
     font-size: 18px;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-input {
-    color: rgb(146, 146, 146); 
+    color: rgb(0, 0, 0); 
     border-color: rgb(228, 231, 234); 
     border-radius: 0px;
     font-weight: 400;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-submit {
-    color: rgb(16, 16, 16); 
+    color: rgb(255, 255, 255); 
     background-color: rgb(199, 92, 86); 
     border-radius: 0px; 
     font-weight: 700;

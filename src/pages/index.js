@@ -26,6 +26,18 @@ const Index = () => {
           <p>Graduated from Louisiana State University.</p>
           <p>Worked for 5 years in Seattle on Azure Active Directory.</p>
         </content>
+        <hr />
+        <h2><span role="img" aria-label="Computer Emoji">💻</span> My Mission</h2>
+        <content>
+          <p>My mission is to change the world through technology.</p>
+          <p>Each one of us has a unique gift to bring to the world, and I believe technology can help you bring that gift to more people.</p>
+          <p>I'm passionate about using my unique skills and experience to enable everyone to reach their potential - faster.</p>
+        </content>
+        <hr />
+        <h2><span role="img" aria-label="Wave Emoji">✉️</span> Stay Connected</h2>
+        <content>
+          <p>Enter your email below to get notified whenever I have new things to share.</p>
+        </content>
         <Newsletter />
       </div>
     </main>

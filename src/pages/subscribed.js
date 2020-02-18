@@ -7,11 +7,11 @@ const NewsletterSignUpSuccess = () => {
     <>
       <Header />
       <main>
-        <h1><span role="img" aria-label="Tada Emoji">🎉</span> You're subscribed!</h1>
+        <h1><span role="img" aria-label="Warning Emoji">⚠️</span> One more step...</h1>
         <content>
         <p>
-            Thanks for signing up for my newsletter!
-            As a final step you will need to confirm your subscription by clicking the button in the email that was just sent.
+            You are so close to subscribing to my newsletter!
+            The final step is to confirm your subscription by clicking the button in the email that was just sent.
             (If you can't see the email, check your Junk folder)
         </p>
         </content>

@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/Header"
 import "./index.css"
+import Newsletter from "../components/Newsletter"
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
           <p>Graduated from Louisiana State University.</p>
           <p>Worked for 5 years in Seattle on Azure Active Directory.</p>
         </content>
+        <Newsletter />
       </div>
     </main>
     </>

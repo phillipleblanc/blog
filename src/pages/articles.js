@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Header from "../components/Header"
 
-const Layout = ({ data }) => {
+const Articles = ({ data }) => {
   const { edges } = data.allMarkdownRemark
   return (
     <>
@@ -57,4 +57,4 @@ export const query = graphql`
   }
 `
 
-export default Layout
+export default Articles

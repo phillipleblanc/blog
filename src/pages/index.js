@@ -34,7 +34,7 @@ const Index = () => {
           <p>I'm passionate about using my unique skills and experience to enable everyone to reach their potential - faster.</p>
         </content>
         <hr />
-        <h2><span role="img" aria-label="Wave Emoji">✉️</span> Stay Connected</h2>
+        <h2><span role="img" aria-label="Mail Emoji">✉️</span> Stay Connected</h2>
         <content>
           <p>Enter your email below to get notified whenever I have new things to share.</p>
         </content>

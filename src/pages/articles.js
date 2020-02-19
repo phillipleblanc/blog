@@ -8,13 +8,7 @@ const Articles = ({ data }) => {
   return (
     <>
       <Header />
-      <main style={{
-        maxWidth: "1520px", 
-        marginRight: "auto", 
-        marginLeft: "auto",
-        padding:"0 200px 0 200px"
-        }}
-      >
+      <main>
         <div
           style={{
             display: "flex",

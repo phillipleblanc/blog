@@ -24,11 +24,13 @@ const Template = ({ data, pageContext }) => {
             }}
           />
 
-          <div style={{ marginBottom: "1rem", fontFamily: "avenir" }}>
-            {next && <Link to={next.frontmatter.path}>Next</Link>}
-          </div>
-          <div style={{ fontFamily: "avenir" }}>
-            {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
+          <div style={{alignItems: "center", display: "flex"}}>
+            <div style={{ fontFamily: "avenir" }} className="flex flex-content">
+              {prev && <Link to={prev.frontmatter.path} className="article-link">⬅️ Previous</Link>}
+            </div>
+            <div style={{ fontFamily: "avenir" }} className="flex">
+              {next && <Link to={next.frontmatter.path} className="article-link">Next ➡️</Link>}
+            </div>
           </div>
         </article>
       </main>

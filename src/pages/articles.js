@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Header from "../components/Header"
+import "./articles.css"
 
 const Articles = ({ data }) => {
   const { edges } = data.allMarkdownRemark
@@ -9,7 +10,6 @@ const Articles = ({ data }) => {
       <Header />
       <main style={{
         maxWidth: "1520px", 
-        marginTop: "40px",
         marginRight: "auto", 
         marginLeft: "auto",
         padding:"0 200px 0 200px"
@@ -23,6 +23,7 @@ const Articles = ({ data }) => {
             fontFamily: "avenir",
           }}
         >
+          <h1><span role="img" aria-label="Books Emoji">📚</span> Articles</h1>
           {edges.map(edge => {
             const { frontmatter } = edge.node
 
@@ -30,7 +31,8 @@ const Articles = ({ data }) => {
 
             return (
               <div key={frontmatter.path} style={{ marginBottom: "1rem" }}>
-                <Link to={frontmatter.path}>{frontmatter.title}</Link>
+                <span role="img" aria-label="Books Emoji" style={{fontSize: "25px"}}>👉</span>
+                <Link to={frontmatter.path} className="article-link">{frontmatter.title}</Link>
               </div>
             )
           })}

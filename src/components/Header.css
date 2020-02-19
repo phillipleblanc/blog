@@ -28,12 +28,6 @@ nav a:hover {
     color: rgba(0,31,234,1);
 }
 
-/*@media screen and (max-width: 768px) {
-    nav {
-        display: none;
-    }
-}*/
-
 header {
     display: flex;
     align-items: center;

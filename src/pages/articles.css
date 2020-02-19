@@ -1,0 +1,14 @@
+
+.article-link {
+    padding: 4px 5px; 
+    text-transform: uppercase;
+    color: rgba(17,17,17,.7);
+    text-decoration: none;
+    font-family: avenir;
+    transition: color 0.37s;
+    font-size: 20px
+}
+
+.article-link:hover {
+    color: rgba(0,31,234,1);
+}

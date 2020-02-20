@@ -12,6 +12,14 @@ module.exports = {
     siteUrl: "https://leblanc.tech",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "1",
+        matomoUrl: "https://matomo.cardzlab.xyz",
+        siteUrl: "https://leblanc.tech",
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,

@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Header from "../components/Header"
+import Newsletter from "../components/Newsletter"
 import "../pages/index.css"
 import "./blogPost.css"
 
@@ -33,6 +34,9 @@ const Template = ({ data, pageContext }) => {
             </div>
           </div>
         </article>
+        <div style={{paddingTop: "30px"}}>
+          <Newsletter />
+        </div>
       </main>
     </>
   )

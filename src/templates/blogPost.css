@@ -10,12 +10,12 @@ article {
     display: block;
     font-size: 20px;
     text-align: left;
-    max-width: 50%;
+    max-width: 60%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     article {
-        max-width: 65%;
+        max-width: 75%;
     }
 }
 @media screen and (max-width: 768px) {

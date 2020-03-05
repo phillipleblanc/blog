@@ -476,34 +476,36 @@
 }
 .formkit-form[data-uid="53738043f4"] .formkit-background {
   background-color: rgb(16, 16, 16);
-  background-image: url("https://embed.filekitcdn.com/e/jj9y3M77vbUZfq7A1rUXhG/2M64HiwMd4gXFXrv7QqLAq");
+  background-image: url("/newsletter_bg.jfif");
   opacity: 0.34;
 }
-.formkit-form[data-uid="53738043f4"]  {
-    background-color: rgb(249, 250, 251); 
-    border-radius: 10px;
+.formkit-form[data-uid="53738043f4"] {
+  background-color: rgb(249, 250, 251);
+  border-radius: 10px;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-header {
-    color: rgb(0, 0, 0); 
-    font-size: 28px; 
-    font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: 700;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-subheader {
-    color: rgb(8, 4, 4); 
-    font-size: 18px;
+  color: rgb(8, 4, 4);
+  font-size: 18px;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-input {
-    color: rgb(0, 0, 0); 
-    border-color: rgb(228, 231, 234); 
-    border-radius: 0px;
-    font-weight: 400;
+  color: rgb(0, 0, 0);
+  border-color: rgb(228, 231, 234);
+  border-radius: 0px;
+  font-weight: 400;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-submit {
-    color: rgb(255, 255, 255); 
-    background-color: rgb(199, 92, 86); 
-    border-radius: 0px; 
-    font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(199, 92, 86);
+  border-radius: 0px;
+  font-weight: 700;
 }
 .formkit-form[data-uid="53738043f4"] .formkit-guarantee {
-    color: rgb(77, 77, 77); font-size: 13px; font-weight: 400;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+  font-weight: 400;
 }

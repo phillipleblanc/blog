@@ -25,16 +25,35 @@ const Template = ({ data, pageContext }) => {
             }}
           />
 
-          <div style={{alignItems: "center", display: "flex"}}>
+          <div style={{ alignItems: "center", display: "flex" }}>
             <div style={{ fontFamily: "avenir" }} className="flex flex-content">
-              {prev && <Link to={prev.frontmatter.path} className="article-link">⬅️ Previous</Link>}
+              {prev && (
+                <Link to={prev.frontmatter.path} className="article-link">
+                  <span role="img" aria-label="Left Arrow">
+                    ⬅️
+                  </span>{" "}
+                  Previous
+                </Link>
+              )}
             </div>
             <div style={{ fontFamily: "avenir" }} className="flex">
-              {next && <Link to={next.frontmatter.path} className="article-link">Next ➡️</Link>}
+              {next && (
+                <Link to={next.frontmatter.path} className="article-link">
+                  Next{" "}
+                  <span role="img" aria-label="Right Arrow">
+                    ➡️
+                  </span>
+                </Link>
+              )}
             </div>
           </div>
         </article>
-        <div style={{paddingTop: "30px"}}>
+        <div style={{ paddingTop: "30px" }}>
+          <hr />
+          <p style={{ fontStyle: "italic" }}>
+            If you enjoyed reading this article, consider subscribing to my
+            newsletter to get notified whenever I post a new one!
+          </p>
           <Newsletter />
         </div>
       </main>

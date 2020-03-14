@@ -2,7 +2,7 @@
 path: "/the-efficiency-trap"
 date: "2020-03-04 22:00"
 title: "The Efficiency Trap"
-tags: ["blog"]
+tags: ["blog", "engineering"]
 excerpt: "Conventional wisdom holds that to achieve your goals and obtain more success, you need to be more productive."
 publish: true
 ---

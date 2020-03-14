@@ -2,7 +2,7 @@
 path: "/why-korea"
 date: "2020-02-25 22:00"
 title: "Why Did You Choose to Move to Korea?"
-tags: ["blog"]
+tags: ["blog", "korea"]
 excerpt: "The definitive answer to why I chose to live in Korea."
 publish: true
 ---

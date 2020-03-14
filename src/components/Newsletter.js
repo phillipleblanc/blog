@@ -5,7 +5,7 @@ import "./Newsletter.css"
 const Newsletter = () => {
   return (
     <>
-      <div id="newsletter">
+      <div id="newsletter" style={{ justifyContent: "center", display: "flex"}}>
           <Helmet>
             <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
           </Helmet>

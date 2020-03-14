@@ -1,7 +1,7 @@
 ---
 path: "/the-best-of-hard-code"
 date: "2020-03-14 11:00"
-title: "The best of Eric Brechner’s “Hard Code”"
+title: "The Best of Eric Brechner’s “Hard Code”"
 tags: ["blog", "engineering"]
 excerpt: "Advice on how to become a better engineering manager."
 publish: true

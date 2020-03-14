@@ -71,4 +71,4 @@ Simplicity is also necessary on the customer experience side. Oftentimes, engine
 
 ## Escaping the trap
 
-Now that you've seen the efficiency trap for what it is, you can now start taking steps to escape from it (or avoid it altogether). Having more impact is the goal, and working more effectively by focusing on what matters is the way to get to the outcomes you want. So remember the next time you sit down to do some work, what problem are you trying to solve?
+Now that you've seen the efficiency trap for what it is, you can start taking steps to escape from it (or avoid it altogether). Having more impact is the goal, and working more effectively by focusing on what matters is the way to get to the outcomes you want. So remember the next time you sit down to do some work, what problem are you trying to solve?

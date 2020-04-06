@@ -6,6 +6,9 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "package": "docker build --tag=leblanctech.azurecr.io/leblanctech:latest .",
+    "package:run": "docker run -p 4000:80 leblanctech.azurecr.io/leblanctech:latest",
+    "push": "docker push leblanctech.azurecr.io/leblanctech:latest",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

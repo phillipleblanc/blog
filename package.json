@@ -17,17 +17,17 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.19.5",
-    "gatsby-plugin-feed": "^2.3.26",
-    "gatsby-plugin-matomo": "^0.8.0",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-remark": "^2.6.48",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-feed": "^5.11.0",
+    "gatsby-plugin-matomo": "^0.16.0",
+    "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "3.0.0"
   },
   "repository": {
     "type": "git",

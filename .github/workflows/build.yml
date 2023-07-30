@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         run: gatsby build
-      
+
       - name: Verify build
         run: ls -la public
 
@@ -43,7 +43,7 @@ jobs:
           context: .
           file: Dockerfile
           platforms: linux/amd64
-          push: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/trunk' }}
+          push: true
           tags: |
             ghcr.io/phillipleblanc/leblanc.tech:latest
             ghcr.io/phillipleblanc/leblanc.tech:${{ github.sha }}
